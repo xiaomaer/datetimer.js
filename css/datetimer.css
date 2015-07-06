@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+body {
+	padding: 20px;
+}
+#time {
+	height: 25px;
+	width: 216px;
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+#divCalendar {
+	width: 196px;
+	height: 210px;
+	border: 1px solid cadetblue;
+	padding: 10px;
+	display: none;
+	position: absolute;
+}
+#header {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+table {
+	border-collapse: collapse;
+	font-size: 12px;
+}
+th,
+td {
+	width: 28px;
+	height: 22px;
+	text-align: center;
+}
+td {
+	border: 1px solid gainsboro;
+}
+td:hover {
+	background-color: cornflowerblue;
+}
+#tdNow {
+	color: red;
+}
