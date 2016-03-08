@@ -3,4 +3,6 @@
 
 #### 使用：
 #####只需导入外部样式表文件和js文件，然后在html页面使用如下语句即可：
+```javascript
 <input type="text" id="time" />
+```
